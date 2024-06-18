@@ -4,36 +4,12 @@ This repository contains the code and data for the study "Risk prediction for ea
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Data](#data)
 - [Model](#model)
 - [Results](#results)
 
 ## Introduction
 Determination of the prognosis of living kidney donors is important. Impairment of early post-donation kidney function is associated with a higher risk of long-term kidney failure. This project constructs a prediction model for early post-donation kidney function impairment in live kidney donors using data from three tertiary hospitals in Korea.
-
-## Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your_username/early-post-donation-kidney-dysfunction-prediction.git
-    cd early-post-donation-kidney-dysfunction-prediction
-    ```
-2. Install the necessary dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-1. Prepare your dataset as per the Common Data Model (CDM) format.
-2. Use the provided R script to preprocess the data:
-    ```sh
-    Rscript AKI.R
-    ```
-3. Run the model training and prediction script:
-    ```sh
-    python model.py
-    ```
 
 ## Data
 The data used in this study includes information from living kidney donors at Seoul National University Hospital, Seoul Asan Medical Center, and Seoul National University Bundang Hospital. The dataset includes variables such as age, sex, body mass index, baseline eGFR, and occurrence of postoperative AKI.
